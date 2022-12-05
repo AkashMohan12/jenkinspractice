@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Test1</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">21,451</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Test2</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">63,323</td><td></td><td></td></tr>
+<tr><td><a href="#t2">Test3</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">37,957</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t3">Test4</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">73,333</td><td></td><td></td></tr>
+<tr><td><a href="#t4">Test5</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">39,205</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t5">Test6</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">44,404</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">3</th><th class="num">0</th><th class="num">0</th><th class="num attn">5</th><th class="num">279,673</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test1 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">TestRunner.HomePageTestRunner</td><td><a href="#m0">runScenario</a></td><td rowspan="1">1661934032888</td><td rowspan="1">19995</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Test2 &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">TestRunner.FunctionalityTestRunner</td><td><a href="#m1">runScenario</a></td><td rowspan="2">1661934091030</td><td rowspan="2">25389</td></tr><tr class="failedeven"><td><a href="#m2">runScenario</a></td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">Test3 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">TestRunner.Functionality2TestRunner</td><td><a href="#m3">runScenario</a></td><td rowspan="1">1661934116517</td><td rowspan="1">37843</td></tr></tbody>
+<tbody id="t3"><tr><th colspan="4">Test4 &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">TestRunner.Functionality3TestRunner</td><td><a href="#m4">runScenario</a></td><td rowspan="2">1661934190166</td><td rowspan="2">37583</td></tr><tr class="failedeven"><td><a href="#m5">runScenario</a></td></tr></tbody>
+<tbody id="t4"><tr><th colspan="4">Test5 &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">TestRunner.Functionality4TestRunner</td><td><a href="#m6">runScenario</a></td><td rowspan="1">1661934227893</td><td rowspan="1">39066</td></tr></tbody>
+<tbody id="t5"><tr><th colspan="4">Test6 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">TestRunner.Functionality5TestRunner</td><td><a href="#m7">runScenario</a></td><td rowspan="1">1661934267121</td><td rowspan="1">44272</td></tr></tbody>
+</table>
+<h2>Test1</h2><h3 id="m0">TestRunner.HomePageTestRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;the user wants to verify the functionality of the URL.&quot;</td><td>&quot;to verify the functionality of the application.&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test2</h2><h3 id="m1">TestRunner.FunctionalityTestRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;the user wants to functionality of the restaurant option.&quot;</td><td>&quot;to check the functionality of the restaurant option.&quot;</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">io.cucumber.testng.UndefinedStepException: The step &apos;user verifies whether the error message is displayed or not&apos; is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then(&quot;user verifies whether the error message is displayed or not&quot;)
+public void user_verifies_whether_the_error_message_is_displayed_or_not() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
+	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:129)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:129)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">TestRunner.FunctionalityTestRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;the user wants to functionality of the restaurant option.&quot;</td><td>&quot;to check the functionality of the restaurant option.&quot;</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">io.cucumber.java.PendingException: TODO: implement me
+	at StepDefinition.SearchRestaurantsStepDefinition.user_select_restaurants_of_user_s_choice(SearchRestaurantsStepDefinition.java:48)
+	at ✽.user select restaurants of user&apos;s choice(file:///C:/Users/akash/eclipse-workspace/TripAdvisor_Application/src/test/resources/Functionalities/SearchResaurants.feature:11)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test3</h2><h3 id="m3">TestRunner.Functionality2TestRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;the user wants to verify the functionality of the URL.&quot;</td><td>&quot;to verify the functionality of the application.&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test4</h2><h3 id="m4">TestRunner.Functionality3TestRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;the user wants to verify the functionality of the URL.&quot;</td><td>&quot;to verify the functionality of the application.&quot;</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">io.cucumber.java.PendingException: TODO: implement me
+	at StepDefinition.RentalCarsStepDefinition.selects_the_pickup_date_and_drop_date_from_list(RentalCarsStepDefinition.java:47)
+	at ✽.selects the pickup date and drop date from list(file:///C:/Users/akash/eclipse-workspace/TripAdvisor_Application/src/test/resources/Functionality3/RentalsCars.feature:11)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">TestRunner.Functionality3TestRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;the user wants to verify the functionality of the URL.&quot;</td><td>&quot;to verify the functionality of the application.&quot;</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">io.cucumber.testng.UndefinedStepException: The step &apos;user enters the invalid location &apos;asdfg&apos; on the pickup location text box&apos; and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Then(&quot;user enters the invalid location {string} on the pickup location text box&quot;)
+public void user_enters_the_invalid_location_on_the_pickup_location_text_box(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;user wants to verify whether the error is shown.&quot;)
+public void user_wants_to_verify_whether_the_error_is_shown() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
+	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:129)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:129)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test5</h2><h3 id="m6">TestRunner.Functionality4TestRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;the user wants to verify the functionality of the URL.&quot;</td><td>&quot;to verify the functionality of the application.&quot;</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: expected [ Write a review - Tripadvisor ] but found [Write a review - Tripadvisor]
+	at StepDefinition.ReviewPageStepDefinition.user_verifies_whether_the_searched_data_is_displayed_or_not(ReviewPageStepDefinition.java:34)
+	at ✽.user verifies whether the searched data is displayed or not.(file:///C:/Users/akash/eclipse-workspace/TripAdvisor_Application/src/test/resources/Functionality4/Review.feature:10)
+... Removed 6 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test6</h2><h3 id="m7">TestRunner.Functionality5TestRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;the user wants to verify the functionality of the URL.&quot;</td><td>&quot;to verify the functionality of the application.&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
